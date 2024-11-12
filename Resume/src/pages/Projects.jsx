@@ -20,7 +20,7 @@ const Projects = () => {
           <p>
             <strong>Features:</strong> Authentication, Profiles, Real-time Updates, Course Discussions
           </p>
-          <button className="project-button" onClick={() => window.open("https://github.com/yourusername/CourseHub", "_blank")}>
+          <button className="project-button" onClick={() => window.open("https://github.com/Elias0127/CourseHub", "_blank")}>
             View on GitHub
           </button>
         </div>
