@@ -8,11 +8,11 @@ import Socials from "./pages/Socials";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Resume">
       <Header />
       <main style={{ marginTop: "70px" }}>
         <Routes>
-          <Route path="/Resume/" element={<Home />} /> {/* Default Home Page */}
+          <Route path="/" element={<Home />} /> {/* Default Home Page */}
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/socials" element={<Socials />} />
