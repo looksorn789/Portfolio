@@ -1,0 +1,54 @@
+/* About Header Styling */
+.about-header {
+    font-weight: bold;
+    position: absolute;
+    top: 80px; /* Below the fixed header */
+    left: 20px;
+    font-size: 2rem;
+    color: #FFA500;
+  }
+  
+  /* Page Container */
+  .about-page {
+    padding-top: 150px; /* Prevent overlap with the header */
+  }
+  
+  /* Flexbox for Half-Page Layout */
+  .about-container {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    width: 100%; /* Full width */
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Left Half */
+  .left-content {
+    width: 50%; /* Occupies half the screen */
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid #f7f7f7; /* Vertical line in the middle */
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  /* Right Half */
+  .right-content {
+    width: 50%; /* Occupies the other half */
+    padding: 20px;
+    box-sizing: border-box;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .right-content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
