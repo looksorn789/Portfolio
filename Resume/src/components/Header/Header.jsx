@@ -1,10 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
 import githubicon from "../../assets/githubicon.png";
 import linkicon from "../../assets/linkicon.png";
 
 const Header = () => {
+  const location = useLocation();
+
+  const isActive = (path) => location.pathname === path;
+
   return (
     <header className="header">
       <div className="header-logo">
@@ -17,9 +21,26 @@ const Header = () => {
       </div>
       <nav className="nav-bar">
         <ul className="nav-links">
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/socials">Socials</Link></li>
+          <li>
+            <Link to="/" className={isActive("/") ? "active-link" : ""}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className={isActive("/about") ? "active-about-link" : ""}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" className={isActive("/projects") ? "active-projects-link" : ""}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="/socials" className={isActive("/socials") ? "active-socials-link" : ""}>
+              Socials
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
