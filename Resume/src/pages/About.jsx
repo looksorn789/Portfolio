@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/Styles/About.css";
-import anya from "../assets/anya.png"; // Importing the test picture
+import pic from "../assets/pic.jpg"; // Importing the test picture
 import { useNavigate } from "react-router-dom";
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
             Hi everyone! My name is Pornthep Bootchot, you can also just call
             me Patrick or Pat. I am an aspiring full-stack developer. I want to
             create your websites, make cool animations, and build amazing
-            things! I am also a full time anime enjoyer! <br />
+            things!<br />
             <br />
             I have been coding for 5 years, including my time at school. I am
             currently pursuing my bachelor's degree in computer science at
@@ -38,7 +38,7 @@ const About = () => {
         <div className="right-content">
           <div
             className="avatar-placeholder"
-            style={{ backgroundImage: `url(${anya})` }}
+            style={{ backgroundImage: `url(${pic})` }}
           ></div>
         </div>
       </div>
