@@ -1,0 +1,83 @@
+/* Socials Header Styling */
+.socials-header {
+    font-weight: bold;
+    position: absolute;
+    top: 80px; /* Below the fixed header */
+    left: 20px;
+    font-size: 2rem;
+    color: #1591ea;
+  }
+  
+  /* Page Container */
+  .socials-page {
+    padding-top: 100px; /* Prevent overlap with the header */
+  }
+  
+  /* Flexbox for Half-Page Layout */
+  .socials-container {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    width: 100%; /* Full width */
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Left Content Styling */
+  .left-content {
+    width: 50%; /* Occupies half the screen */
+    margin-bottom: 50%;
+    box-sizing: border-box;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-content p {
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+  
+  /* Copyable Links */
+  .copyable {
+    color: #1591ea;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .copyable:hover {
+    text-decoration: underline;
+  }
+  
+  /* Clipboard Message */
+  .clipboard-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #1591ea;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    animation: fadeInOut 3s ease;
+  }
+  
+  /* Fade-in and Fade-out Animation */
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+  
