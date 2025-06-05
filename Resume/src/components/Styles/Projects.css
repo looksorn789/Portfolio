@@ -10,74 +10,81 @@
     padding: 20px;
   }
   
-  .projects-header {
-    font-weight: bold;
-    font-size: 2.5rem;
-    color: #ebbe4d;
-    margin-bottom: 20px;
+.projects-header {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #ebbe4d;
+  margin-bottom: 20px;
   }
   
-  /* Projects Content Layout */
-  .projects-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+/* Projects Content Layout */
+.projects-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   }
   
-  /* Project Card Styling */
-  .project-card {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 20px;
-    width: 300px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+/* Project Card Styling */
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
-  .project-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
   }
   
-  .project-card h3 {
-    font-size: 1.8rem;
-    color: #ffa500;
-    margin-bottom: 10px;
+.project-card h3 {
+  font-size: 1.8rem;
+  color: #ffa500;
+  margin-bottom: 10px;
   }
   
-  .project-card p {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #e0e0e0;
-    margin-bottom: 10px;
+.project-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #e0e0e0;
+  margin-bottom: 10px;
   }
   
-  .project-card ul {
-    list-style-type: none;
-    padding: 0;
+.project-card ul {
+  list-style-type: none;
+  padding: 0;
   }
   
-  .project-card ul li {
-    margin-bottom: 5px;
+.project-card ul li {
+  margin-bottom: 5px;
   }
   
-  /* Project Button Styling */
-  .project-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #fff;
-    background: linear-gradient(45deg, #6a11cb, #2575fc);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s ease;
+/* Project Button Styling */
+.project-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
   }
-  
-  .project-button:hover {
-    background: linear-gradient(45deg, #ff512f, #dd2476);
-    transform: scale(1.05);
+.button-group {
+  display: flex;
+  gap: 18px; /* Adjust spacing as needed */
+  margin-top: 10px;
+  flex-wrap: wrap; /* Optional if you want wrapping on smaller screens */
+  justify-content: center; /* centers the buttons horizontally */
+}
+
+.project-button:hover {
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  transform: scale(1.05);
   }
   

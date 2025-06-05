@@ -75,49 +75,56 @@ const Projects = () => {
             View on GitHub
           </button>
         </div>
-        {/* Chatting System Project Card */}
+        {/* My Daily Journal */}
         <div className="project-card">
-          <h3>Distributed Chatting System</h3>
+          <h3>My Daily Journal</h3>
           <p>
-            A distributed communication system where users can join chat rooms, send messages, and communicate in real time over a network.
-            This project implements server-client architecture using Python.
+            A frontend design and features implemented for you to vlog your personal daily life
           </p>
           <p>
-            <strong>Technologies:</strong> Python, Socket Programming
+            <strong>Technologies:</strong> React, CSS
           </p>
           <p>
             <strong>Features:</strong>
             <ul>
-              <li>Join chat rooms and send messages</li>
-              <li>Server broadcasts messages to all clients</li>
-              <li>List connected clients</li>
-              <li>Server and client stop commands</li>
+              <li>JournalEntry allows you to enter your journal with a mood selector</li>
+              <li>MoodBoard allows you to input 4 photos and flip them around to be added to your journal</li>
+              <li>MyJournal shows you the pictures and journal entry you have added</li>
+              <li>Calendar features allows you to plan out your entire year and each months and days</li>
+              <li>Light and Dark Mode</li>
+              <li>Profile Settings and Authentication</li>
             </ul>
           </p>
-          <button className="project-button" onClick={() => window.open("https://github.com/MNRainDrop/CECS-327-Project1", "_blank")}>
-            View on GitHub
-          </button>
+          <div className="button-group">
+            <button className="project-button" onClick={() => window.open("https://github.com/looksorn789/My-Daily-Journal", "_blank")}>
+              View on GitHub
+            </button>
+            <button className="project-button" onClick={() => window.open("https://looksorn789.github.io/My-Daily-Journal/", "_blank")}>
+              View Website
+            </button>
+          </div>
         </div>
-        {/* Chatting System Project Card */}
+        {/* Keys to the kingdom */}
         <div className="project-card">
-          <h3>Distributed Chatting System</h3>
+          <h3>Keys To The Kingdom</h3>
           <p>
-            A distributed communication system where users can join chat rooms, send messages, and communicate in real time over a network.
-            This project implements server-client architecture using Python.
+            A small indie game created using unity and c#. This game was created with free assets and c# scripts to control how characters move.
+            The game includes a combat feature that will allow players to defeat enemies which will drop items that is used to unlock doors.
+            The end goal of the game is to find the final item in the game which will lead you to beat the game.
           </p>
           <p>
-            <strong>Technologies:</strong> Python, Socket Programming
+            <strong>Technologies:</strong> Unity, C#
           </p>
           <p>
             <strong>Features:</strong>
             <ul>
-              <li>Join chat rooms and send messages</li>
-              <li>Server broadcasts messages to all clients</li>
-              <li>List connected clients</li>
-              <li>Server and client stop commands</li>
+              <li>Combat Feature</li>
+              <li>Dialogue Feature</li>
+              <li>Inventory System</li>
+              <li>Door Spawnpoints</li>
             </ul>
           </p>
-          <button className="project-button" onClick={() => window.open("https://github.com/MNRainDrop/CECS-327-Project1", "_blank")}>
+          <button className="project-button" onClick={() => window.open("https://github.com/zsanchez6/KeysToTheKingdom", "_blank")}>
             View on GitHub
           </button>
         </div>

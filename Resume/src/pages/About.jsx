@@ -21,12 +21,12 @@ const About = () => {
             create your websites, make cool animations, and build amazing
             things!<br />
             <br />
-            I have been coding for 5 years, including my time at school. I am
-            currently pursuing my bachelor's degree in computer science at
+            I have been coding for 5 years, including my time at school. I have graduated with 
+            my bachelor's degree in computer science at
             California State University of Long Beach. My preferred programming
-            languages are Python, Java, and JavaScript. I’ve worked with
+            languages are Python, C#, and JavaScript. I’ve worked with
             frameworks like Django, Angular, Node.js, React, Flask, and more.
-            This website was built using React! <br />
+            This website was built using React Vite! <br />
             <br />
             If you want to contact me, here’s a little cool button for
             you:
