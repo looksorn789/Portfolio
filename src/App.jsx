@@ -8,7 +8,7 @@ import Socials from "./pages/Socials";
 
 const App = () => {
   return (
-    <Router basename="/Resume">
+    <Router basename="/Portfolio">
       <Header />
       <main style={{ marginTop: "70px" }}>
         <Routes>
