@@ -20,9 +20,14 @@ const Projects = () => {
           <p>
             <strong>Features:</strong> Authentication, Profiles, Real-time Updates, Course Discussions
           </p>
-          <button className="project-button" onClick={() => window.open("https://github.com/Elias0127/CourseHub", "_blank")}>
-            View on GitHub
-          </button>
+          <div className="button-group">
+            <button className="project-button" onClick={() => window.open("https://github.com/Elias0127/CourseHub", "_blank")}>
+              View on GitHub
+            </button>
+            <button className="project-button" onClick={() => window.open("https://youtu.be/SAqRzDYyfaU", "_blank")}>
+              View Demo
+            </button>
+          </div>
         </div>
 
         {/* Chatting System Project Card */}
@@ -124,9 +129,14 @@ const Projects = () => {
               <li>Door Spawnpoints</li>
             </ul>
           </p>
-          <button className="project-button" onClick={() => window.open("https://github.com/zsanchez6/KeysToTheKingdom", "_blank")}>
-            View on GitHub
-          </button>
+          <div className="button-group">
+            <button className="project-button" onClick={() => window.open("https://github.com/zsanchez6/KeysToTheKingdom", "_blank")}>
+              View on GitHub
+            </button>
+            <button className="project-button" onClick={() => window.open("https://youtu.be/e6bru3lDydA", "_blank")}>
+              View Demo
+            </button>
+          </div>
         </div>
       </div>
     </div>
