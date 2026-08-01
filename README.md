@@ -48,10 +48,10 @@ https://looksorn789.github.io/Portfolio/
 src
 │
 ├── assets
-│   ├── aniya.png
+│   ├── test.png
 │   ├── githubicon.png
 │   ├── linkicon.png
-│   └── peek.gif
+│   └── test2.gif
 │
 ├── components
 │   └── Header
