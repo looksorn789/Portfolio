@@ -24,8 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -52,6 +50,38 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.page-content{
+  padding-top:110px;
+}
+
+/* Sharable button class */
+.primary-button {
+  padding: 15px 30px;
+  width: fit-content;
+
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 50px;
+
+  cursor: pointer;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  transition: background .3s ease, transform .2s ease;
+}
+
+.primary-button:hover {
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  transform: scale(1.05);
+}
+
+.primary-button:active {
+  transform: scale(.96);
 }
 
 @media (prefers-color-scheme: light) {

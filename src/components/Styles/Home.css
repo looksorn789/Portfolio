@@ -1,43 +1,44 @@
 /* General Styling */
 body {
     margin: 0;
-    font-family: "Arial", sans-serif;
-    background: linear-gradient(120deg, #1e1e2f, #3c3c54);
-    color: #ffffff;
-    overflow: hidden;
-  }
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg,#1e1e2f,#3c3c54);
+    color: white;
+    overflow-x: hidden;
+}
   
 .home-page {
-    height: 100vh;
+    height: calc(100vh - 70px);
+
     display: flex;
-    left: 600px;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+
     position: relative;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
 /* Header and Text */
 .home-header {
-    font-size: 3rem;
+    font-size: clamp(2rem, 6vw, 3.5rem);
     font-weight: bold;
     color: #ffa500;
     animation: fadeIn 1.5s ease-in-out;
 }
 
 .home-subtext {
-    font-size: 1.2rem;
-    margin-top: 20px;
-    color: #e0e0e0;
-    animation: fadeIn 2s ease-in-out;
+    font-size: clamp(1rem,3vw,1.2rem);
+    max-width: 650px;
+    line-height: 1.6;
 }
 
 /* Button Styling */
 .get-to-know-me {
     margin-top: 40px;
-    padding: 15px 30px;
-    font-size: 1.5rem;
+    padding:14px 28px;
+    font-size:1rem;
     font-weight: bold;
     color: #fff;
     background: linear-gradient(45deg, #6a11cb, #2575fc);
@@ -120,4 +121,40 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Phone Support */
+@media (max-width:768px){
+
+.home-page{
+    padding:1.5rem;
+}
+
+.home-header{
+    font-size:2.2rem;
+}
+
+.home-subtext{
+    font-size:1rem;
+}
+
+.get-to-know-me{
+    width:100%;
+    max-width:280px;
+}
+
+.circle{
+    width:70px;
+    height:70px;
+}
+
+.square{
+    width:60px;
+    height:60px;
+}
+
+.triangle{
+    transform:scale(.7);
+}
+
 }

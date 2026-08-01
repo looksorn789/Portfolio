@@ -9,15 +9,17 @@ import Socials from "./pages/Socials";
 const App = () => {
   return (
     <Router basename="/Portfolio">
+      <>
       <Header />
-      <main style={{ marginTop: "70px" }}>
+      <main className="page-content">
         <Routes>
           <Route path="/" element={<Home />} /> {/* Default Home Page */}
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/socials" element={<Socials />} />
         </Routes>
-      </main>
+        </main>
+      </>
     </Router>
   );
 };
