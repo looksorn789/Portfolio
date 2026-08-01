@@ -1,11 +1,80 @@
-# React + Vite
+# Patrick Bootchot - Full Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This website showcases my experience, projects, technical skills, and journey as a Full Stack Developer.
 
-Currently, two official plugins are available:
+Built with modern frontend technologies, this portfolio focuses on responsive design, clean UI/UX, and interactive components to provide a smooth browsing experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Website
 
-# Find the website through this url
+Visit my portfolio here:
+
 https://looksorn789.github.io/Portfolio/
+
+---
+
+## 🚀 Features
+
+- Responsive design for desktop, tablet, and mobile devices
+- Interactive navigation with animated header
+- Project showcase with detailed information
+- Modern glassmorphism UI elements
+- Smooth animations and transitions
+- Mobile-friendly hamburger menu
+- Social links integration
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- React Router
+
+### Development Tools
+
+- Git & GitHub
+- ESLint
+- GitHub Pages Deployment
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+│
+├── assets
+│   ├── aniya.png
+│   ├── githubicon.png
+│   ├── linkicon.png
+│   └── peek.gif
+│
+├── components
+│   └── Header
+│       ├── Header.jsx
+│       └── Header.css
+│
+├── Styles
+│   ├── About.css
+│   ├── Home.css
+│   ├── Projects.css
+│   └── Socials.css
+│
+├── data
+│   └── projects.js
+│
+├── pages
+│   ├── About.jsx
+│   ├── Home.jsx
+│   ├── Projects.jsx
+│   └── Socials.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
